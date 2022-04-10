@@ -21,7 +21,7 @@ source "googlecompute" "ubuntu-custom-image" {
   source_image                = var.source_image
   zone                        = var.zone
   image_description           = "Created with Packer"
-  image_storage_locations     = ["asia-southeast1-a"]
+  image_storage_locations     = ["asia-southeast1"]
   ssh_username                = "root"
   tags                        = ["packer"]
   network                     = "default"
