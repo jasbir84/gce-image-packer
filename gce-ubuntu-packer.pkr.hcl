@@ -27,7 +27,7 @@ source "googlecompute" "ubuntu-custom-image" {
   network                     = "default"
   subnetwork                  = "default"
   use_internal_ip             = true
-  omit_external_ip            = true
+  #omit_external_ip            = true
   use_iap                     = true
 }
 
